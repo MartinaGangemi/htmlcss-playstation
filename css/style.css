@@ -1,10 +1,22 @@
 :root{
     --dark_color: black;
+    --blue_color: #0070D1;
 }
 
 /*color*/
 .bg_dark_color{
     background-color: var(--dark_color);
+}
+.blue_color{
+    color: var(--blue_color);
+}
+
+.text_black{
+    color: var(--dark_color) !important;
+}
+
+.text_black:hover{
+    color: var(--blue_color)!important ;
 }
 
 .debug{
@@ -17,15 +29,46 @@
     height: 500px;
 }
 
+/*img container*/
 .box_sony{
     width: 70px;
+}
+
+.play_ico{
+    width: 80px;
 }
 
 .drop-triangle::after{
     display: inline-block;
     content: "";
-    background-image: url(.\img\chevron-down-solid.svg);
+    background-image: url(../img/chevron-down-solid.svg);
     width: 10px;
     height: 10px;
+}
+
+.drop-triangle:hover::after{
+    display: inline-block;
+    content: "";
+    background-image: url(../img/chevron-down-solid-hover.svg);
+    width: 10px;
+    height: 10px;
+}
+
+
+.link_giochi::before {
+    display: flex;
+    align-items: center;
+    font-family: "Font Awesome 5 Free"; 
+    font-size: 0.5rem;
+    color: var(--blue_color);
+    font-weight: 900; 
+    content: "\f111";
+    margin-right: 0.5rem;
+  }
+
+.dropdown-menu{
+    position: absolute;
+    left: 0;
+    top: 70px;
 }
 

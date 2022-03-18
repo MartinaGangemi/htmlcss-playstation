@@ -9,6 +9,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
 
+    <script src="https://kit.fontawesome.com/6ab09c9efe.js" crossorigin="anonymous"></script>
+
     <title>Hello, world!</title>
   </head>
   <body>
@@ -20,7 +22,7 @@
                 </div>
             </div>
             <!-- nav -->
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light  position-relative">
                 <a class="navbar-brand" href="#">
                     <img src="./img/play_logo.svg" alt="">
                 </a>
@@ -29,24 +31,364 @@
                 </button>
               
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav mr-auto">
+                    <ul class="navbar-nav mr-auto">
                     
-                    <li class="nav-item dropdown">
-                      <a class="nav-link drop-triangle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Dropdown
-                      </a>
-                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                      </div>
-                    </li>
-                    
-                  </ul>
-                  
+                        <!-- Giochi -->
+                        <li class="nav-item">
+                            <a class="nav-link drop-triangle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Giochi
+                            </a>
+                            <!-- Dropdown -->
+                            <div class="dropdown-menu w-100 border-0 rounded-0" aria-labelledby="navbarDropdown">
+                                <div class="row justify-content-center border-bottom border-2 px-5 py-2">
+                                    <!-- Play Station 5 -->
+                                    <div class="col-2 ">
+                                        <div class="row justify-content-center">
+                                            <div class="play_ico">
+                                                <img class="img-fluid" src="./img/play-menu-ico.png" alt="">
+                                            </div>
+                                            <div class="d-flex justify-content-center">Play Station 5</div>
+                                        </div>
+                                    </div>
+                                    <!-- Play Station 4 -->
+                                    <div class="col-2 ">
+                                        <div class="row justify-content-center">
+                                            <div class="play_ico">
+                                                <img class="img-fluid" src="./img/play-menu-ico.png" alt="">
+                                            </div>
+                                            <div class="d-flex justify-content-center">Play Station 4</div>
+                                        </div>
+                                    </div>
+                                    <!-- Play Station 3 -->
+                                    <div class="col-2 ">
+                                        <div class="row justify-content-center">
+                                            <div class="play_ico">
+                                                <img class="img-fluid" src="./img/play-menu-ico.png" alt="">
+                                            </div>
+                                            <div class="d-flex justify-content-center">Play Station 3</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- lista link servizi -->
+                                <div>
+                                    <ul class="nav justify-content-center align-content-center">
+                                        <li class="nav-item link_giochi d-flex align-content-center">
+                                            <a class="nav-link text_black me-2" aria-current="page" href="#">
+                                                Link Giochi
+                                            </a>
+                                        </li>
+                                        <li class="nav-item link_giochi d-flex align-content-center">
+                                            <a class="nav-link text_black me-2" aria-current="page" href="#">
+                                            Link Giochi
+                                        </a>
+                                        </li>
+                                        <li class="nav-item link_giochi d-flex align-content-center">
+                                            <a class="nav-link text_black me-2" aria-current="page" href="#">
+                                             Link Giochi
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!-- Hardware -->
+                        <li class="nav-item ">
+                            <a class="nav-link drop-triangle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Hardware
+                            </a>
+                            <!-- Dropdown -->
+                            <div class="dropdown-menu w-100 border-0 rounded-0" aria-labelledby="navbarDropdown">
+                                <div class="row justify-content-center border-bottom border-2 px-5 py-2">
+                                    <!-- Play Station 5 -->
+                                    <div class="col-2 ">
+                                        <div class="row justify-content-center">
+                                            <div class="play_ico">
+                                                <img class="img-fluid" src="./img/play-menu-ico.png" alt="">
+                                            </div>
+                                            <div class="d-flex justify-content-center">Play Station 5</div>
+                                        </div>
+                                    </div>
+                                    <!-- Play Station 4 -->
+                                    <div class="col-2 ">
+                                        <div class="row justify-content-center">
+                                            <div class="play_ico">
+                                                <img class="img-fluid" src="./img/play-menu-ico.png" alt="">
+                                            </div>
+                                            <div class="d-flex justify-content-center">Play Station 4</div>
+                                        </div>
+                                    </div>
+                                    <!-- Play Station 3 -->
+                                    <div class="col-2 ">
+                                        <div class="row justify-content-center">
+                                            <div class="play_ico">
+                                                <img class="img-fluid" src="./img/play-menu-ico.png" alt="">
+                                            </div>
+                                            <div class="d-flex justify-content-center">Play Station 3</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- lista link servizi -->
+                                <div>
+                                    <ul class="nav justify-content-center align-content-center">
+                                        <li class="nav-item link_giochi d-flex align-content-center">
+                                            <a class="nav-link text_black me-2" aria-current="page" href="#">
+                                                Link Giochi
+                                            </a>
+                                        </li>
+                                        <li class="nav-item link_giochi d-flex align-content-center">
+                                            <a class="nav-link text_black me-2" aria-current="page" href="#">
+                                            Link Giochi
+                                        </a>
+                                        </li>
+                                        <li class="nav-item link_giochi d-flex align-content-center">
+                                            <a class="nav-link text_black me-2" aria-current="page" href="#">
+                                             Link Giochi
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!-- Servizi -->
+                        <li class="nav-item">
+                            <a class="nav-link drop-triangle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Servizi
+                            </a>
+                            <!-- Dropdown -->
+                            <div class="dropdown-menu w-100 border-0 rounded-0" aria-labelledby="navbarDropdown">
+                                <div class="row justify-content-center border-bottom border-2 px-5 py-2">
+                                    <!-- Play Station 5 -->
+                                    <div class="col-2 ">
+                                        <div class="row justify-content-center">
+                                            <div class="play_ico">
+                                                <img class="img-fluid" src="./img/play-menu-ico.png" alt="">
+                                            </div>
+                                            <div class="d-flex justify-content-center">Play Station 5</div>
+                                        </div>
+                                    </div>
+                                    <!-- Play Station 4 -->
+                                    <div class="col-2 ">
+                                        <div class="row justify-content-center">
+                                            <div class="play_ico">
+                                                <img class="img-fluid" src="./img/play-menu-ico.png" alt="">
+                                            </div>
+                                            <div class="d-flex justify-content-center">Play Station 4</div>
+                                        </div>
+                                    </div>
+                                    <!-- Play Station 3 -->
+                                    <div class="col-2 ">
+                                        <div class="row justify-content-center">
+                                            <div class="play_ico">
+                                                <img class="img-fluid" src="./img/play-menu-ico.png" alt="">
+                                            </div>
+                                            <div class="d-flex justify-content-center">Play Station 3</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- lista link servizi -->
+                                <div>
+                                    <ul class="nav justify-content-center align-content-center">
+                                        <li class="nav-item link_giochi d-flex align-content-center">
+                                            <a class="nav-link text_black me-2" aria-current="page" href="#">
+                                                Link Giochi
+                                            </a>
+                                        </li>
+                                        <li class="nav-item link_giochi d-flex align-content-center">
+                                            <a class="nav-link text_black me-2" aria-current="page" href="#">
+                                            Link Giochi
+                                        </a>
+                                        </li>
+                                        <li class="nav-item link_giochi d-flex align-content-center">
+                                            <a class="nav-link text_black me-2" aria-current="page" href="#">
+                                             Link Giochi
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!-- Novità -->
+                        <li class="nav-item ">
+                            <a class="nav-link drop-triangle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Novità
+                            </a>
+                            <!-- Dropdown -->
+                            <div class="dropdown-menu w-100 border-0 rounded-0" aria-labelledby="navbarDropdown">
+                                <div class="row justify-content-center border-bottom border-2 px-5 py-2">
+                                    <!-- Play Station 5 -->
+                                    <div class="col-2 ">
+                                        <div class="row justify-content-center">
+                                            <div class="play_ico">
+                                                <img class="img-fluid" src="./img/play-menu-ico.png" alt="">
+                                            </div>
+                                            <div class="d-flex justify-content-center">Play Station 5</div>
+                                        </div>
+                                    </div>
+                                    <!-- Play Station 4 -->
+                                    <div class="col-2 ">
+                                        <div class="row justify-content-center">
+                                            <div class="play_ico">
+                                                <img class="img-fluid" src="./img/play-menu-ico.png" alt="">
+                                            </div>
+                                            <div class="d-flex justify-content-center">Play Station 4</div>
+                                        </div>
+                                    </div>
+                                    <!-- Play Station 3 -->
+                                    <div class="col-2 ">
+                                        <div class="row justify-content-center">
+                                            <div class="play_ico">
+                                                <img class="img-fluid" src="./img/play-menu-ico.png" alt="">
+                                            </div>
+                                            <div class="d-flex justify-content-center">Play Station 3</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- lista link servizi -->
+                                <div>
+                                    <ul class="nav justify-content-center align-content-center">
+                                        <li class="nav-item link_giochi d-flex align-content-center">
+                                            <a class="nav-link text_black me-2" aria-current="page" href="#">
+                                                Link Giochi
+                                            </a>
+                                        </li>
+                                        <li class="nav-item link_giochi d-flex align-content-center">
+                                            <a class="nav-link text_black me-2" aria-current="page" href="#">
+                                            Link Giochi
+                                        </a>
+                                        </li>
+                                        <li class="nav-item link_giochi d-flex align-content-center">
+                                            <a class="nav-link text_black me-2" aria-current="page" href="#">
+                                             Link Giochi
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!-- Fao acquisti -->
+                        <li class="nav-item">
+                            <a class="nav-link drop-triangle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Fai acquisti
+                            </a>
+                            <!-- Dropdown -->
+                            <div class="dropdown-menu w-100 border-0 rounded-0" aria-labelledby="navbarDropdown">
+                                <div class="row justify-content-center border-bottom border-2 px-5 py-2">
+                                    <!-- Play Station 5 -->
+                                    <div class="col-2 ">
+                                        <div class="row justify-content-center">
+                                            <div class="play_ico">
+                                                <img class="img-fluid" src="./img/play-menu-ico.png" alt="">
+                                            </div>
+                                            <div class="d-flex justify-content-center">Play Station 5</div>
+                                        </div>
+                                    </div>
+                                    <!-- Play Station 4 -->
+                                    <div class="col-2 ">
+                                        <div class="row justify-content-center">
+                                            <div class="play_ico">
+                                                <img class="img-fluid" src="./img/play-menu-ico.png" alt="">
+                                            </div>
+                                            <div class="d-flex justify-content-center">Play Station 4</div>
+                                        </div>
+                                    </div>
+                                    <!-- Play Station 3 -->
+                                    <div class="col-2 ">
+                                        <div class="row justify-content-center">
+                                            <div class="play_ico">
+                                                <img class="img-fluid" src="./img/play-menu-ico.png" alt="">
+                                            </div>
+                                            <div class="d-flex justify-content-center">Play Station 3</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- lista link servizi -->
+                                <div>
+                                    <ul class="nav justify-content-center align-content-center">
+                                        <li class="nav-item link_giochi d-flex align-content-center">
+                                            <a class="nav-link text_black me-2" aria-current="page" href="#">
+                                                Link Giochi
+                                            </a>
+                                        </li>
+                                        <li class="nav-item link_giochi d-flex align-content-center">
+                                            <a class="nav-link text_black me-2" aria-current="page" href="#">
+                                            Link Giochi
+                                        </a>
+                                        </li>
+                                        <li class="nav-item link_giochi d-flex align-content-center">
+                                            <a class="nav-link text_black me-2" aria-current="page" href="#">
+                                             Link Giochi
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!-- Supporto -->
+                        <li class="nav-item ">
+                            <a class="nav-link drop-triangle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Supporto
+                            </a>
+                            <!-- Dropdown -->
+                            <div class="dropdown-menu w-100 border-0 rounded-0" aria-labelledby="navbarDropdown">
+                                <div class="row justify-content-center border-bottom border-2 px-5 py-2">
+                                    <!-- Play Station 5 -->
+                                    <div class="col-2 ">
+                                        <div class="row justify-content-center">
+                                            <div class="play_ico">
+                                                <img class="img-fluid" src="./img/play-menu-ico.png" alt="">
+                                            </div>
+                                            <div class="d-flex justify-content-center">Play Station 5</div>
+                                        </div>
+                                    </div>
+                                    <!-- Play Station 4 -->
+                                    <div class="col-2 ">
+                                        <div class="row justify-content-center">
+                                            <div class="play_ico">
+                                                <img class="img-fluid" src="./img/play-menu-ico.png" alt="">
+                                            </div>
+                                            <div class="d-flex justify-content-center">Play Station 4</div>
+                                        </div>
+                                    </div>
+                                    <!-- Play Station 3 -->
+                                    <div class="col-2 ">
+                                        <div class="row justify-content-center">
+                                            <div class="play_ico">
+                                                <img class="img-fluid" src="./img/play-menu-ico.png" alt="">
+                                            </div>
+                                            <div class="d-flex justify-content-center">Play Station 3</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- lista link servizi -->
+                                <div>
+                                    <ul class="nav justify-content-center align-content-center">
+                                        <li class="nav-item link_giochi d-flex align-content-center">
+                                            <a class="nav-link text_black me-2" aria-current="page" href="#">
+                                                Link Giochi
+                                            </a>
+                                        </li>
+                                        <li class="nav-item link_giochi d-flex align-content-center">
+                                            <a class="nav-link text_black me-2" aria-current="page" href="#">
+                                            Link Giochi
+                                        </a>
+                                        </li>
+                                        <li class="nav-item link_giochi d-flex align-content-center">
+                                            <a class="nav-link text_black me-2" aria-current="page" href="#">
+                                             Link Giochi
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
-              </nav>
+            </nav> 
         </header>
 
         <!-- Hero Image -->
