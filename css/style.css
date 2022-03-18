@@ -2,6 +2,7 @@
     --dark_color: black;
     --blue_color: #0070D1;
     --light: white;
+    --ligher: #BEBCBB;
 }
 
 body{
@@ -38,6 +39,10 @@ body{
     height: 100px;
 }
 
+.bg_gray{
+    background-color: var(--ligher);
+}
+
 /* font-size */
 
 .fs_08{
@@ -64,6 +69,7 @@ body{
     background-image: url(../img/returnal-listing-thumb-01-ps5.jpg);
     background-position-x: right;
 }
+
 .it_takes-2{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);  
     background-position-x: center;
