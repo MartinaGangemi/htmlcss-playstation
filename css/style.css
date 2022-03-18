@@ -1,12 +1,18 @@
 :root{
     --dark_color: black;
     --blue_color: #0070D1;
+    --light: white;
 }
 
 /*color*/
 .bg_dark_color{
     background-color: var(--dark_color);
 }
+
+.bg_light-color{
+    background-color: var(--light);
+}
+
 .blue_color{
     color: var(--blue_color);
 }
