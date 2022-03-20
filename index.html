@@ -16,9 +16,11 @@
   <body>
         <!--Header -->
         <header>
-            <div class="bg_dark_color d-flex justify-content-end p-2">
-                <div class="box_sony">
-                    <img class="figure-img img-fluid" src="./img/sony_logo.svg" alt="">
+            <div class="bg_dark_color">
+                <div class="container-fluid  d-flex  justify-content-end p-2">
+                    <div class="box_sony">
+                        <img class="figure-img img-fluid" src="./img/sony_logo.svg" alt="">
+                    </div>
                 </div>
             </div>
             <!-- nav -->
@@ -388,7 +390,8 @@
                             </li>
                         </ul>
 
-                        <div class="d-flex align-items-center">
+                        <div class="row row-cols-1 row-cols-lg-2 align-items-center">
+                            <div class="col">
                             <ul class="navbar-nav mr-auto">
                                 <!-- My PlayStation -->
                                 <li class="nav-item">
@@ -449,10 +452,13 @@
                                     </div> 
                                 </li>
                             </ul>
-                            <a href="" class="btn btn-dark rounded-pill mx-3">Accedi</a>
+                        </div>
+                        <div class="col d-flex flex-nowrap align-items-center">
+                            <a href="" class="btn btn-dark rounded-pill me-4 mx-lg-4">Accedi</a>
                             <img src="./img/lens.svg" height="24" alt="">
                         </div>
                     </div>
+                </div>
                 </div>
             </nav>
            
@@ -464,6 +470,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-md-4 text-light">
+                        <div>
+                            <img width="250" class="d-md-none mb-3" src="./img/returnal-hero-banner-logo.png" alt="">
+                        </div>
                         <h2 class="mb-4 display-5">Rompi il cerchio</h2>
                         <p class="mb-3">Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in questo esplosivo thriller fantascientifico disponibile in esclusiva PS5</p>
                         <a href="" class="btn btn-danger rounded-pill">Acquista ora</a>
@@ -536,60 +545,62 @@
             </div>
 
             <!-- Play Station 5 accessories -->
-            <div class="row row-cols-3 row-cols-md-5 gy-4 gx-5 my-5">
+            <div class="row row-cols-3 row-cols-md-5 gy-4 gx-5 mx-2 mx-md-2 my-5">
                 <!-- Console -->
                 <div class="col border-bottom border-primary border-2">
-                    <div class=" px-1 px-2-sm px-3-md px-lg px-xl-5">
+                    <div class="px-3-md px-lg-4 px-xl-5">
                         <img class="img-fluid" src="./img/playstation-5-thumb.png" alt="">
                     </div>
-                    <div class="mt-2 text-center">
+                    <div class="mt-2 text-center d-none d-md-block">
                         Console PS5
                     </div>
                 </div>
                 <!-- Controller -->
                 <div class="col opacity-50">
-                    <div class=" px-1 px-2-sm px-3-md px-lg-4 px-xl-5">
+                    <div class="px-3-md px-lg-4 px-xl-5">
                         <img class="img-fluid" src="./img/joypad-thumb.png" alt="">
                     </div>
-                    <div class="mt-2 text-center">
+                    <div class="mt-2 text-center d-none d-md-block">
                         Controller Wireless Dualsense&trade;
                     </div>
                 </div>
                 <!-- Headset -->
                 <div class="col opacity-50">
-                    <div class=" px-1 px-2-sm px-3-md px-lg-4 px-xl-5"> 
+                    <div class="px--sm px-3-md px-lg-4 px-xl-5"> 
                         <img class="img-fluid" src="./img/headset-thumb.png" alt="">
                     </div>
-                    <div class="mt-2 text-center">
+                    <div class="mt-2 text-center d-none d-md-block">
                         Cuffie Wireless con microfono PULSE 3&trade;
                     </div>
                 </div>
                 <!-- Remote -->
                 <div class="col opacity-50">
-                    <div class=" px-1 px-2-sm px-3-md px-lg-4 px-xl-5">
+                    <div class=" px-2-sm px-3-md px-lg-4 px-xl-5">
                         <img class="img-fluid" src="./img/remote-thumb.png" alt="">
                     </div>
-                    <div class="mt-2 text-center">
+                    <div class="mt-2 text-center d-none d-md-block">
                         Telecomando media
                     </div>
                 </div>  
                 <!-- Camera -->
                 <div class="col opacity-50">
-                    <div class=" px-1 px-2-sm px-3-md px-lg-4 px-xl-5">
+                    <div class=" px-2-sm px-3-md px-lg-4 px-xl-5">
                         <img class="img-fluid" src="./img/camera-thumb.jpg" alt="">
                     </div>
-                    <div class="mt-2 text-center">
+                    <div class="mt-2 text-center d-none d-md-block">
                         Telecamera HD
                     </div>
                 </div>
             </div>
         </div>
         
-
         <!-- Hero Image -->
         <div class="hero_img it_takes-2 d-flex align-items-end py-5">
             <div class="container">
                 <div class="row">
+                    <div>
+                        <img width="250" class="d-md-none mb-3" src="./img/it-takes-two-logo.png" alt="">
+                    </div>
                     <div class="col-12 col-md-4 text-light">
                         <h2 class="mb-4 display-5">Un'avventura cooperativa selvaggia ti attende</h2>
                         <p class="mb-3">Trova un amico e partite insieme per l'avventura più folle delle vostre vite in It Takes Two, un gioco d'avventura cooperativa a piattaforme che stravolge il suo genere</p>
@@ -718,7 +729,7 @@
                     Non C'è mai stato un momento migliore per giocare sulla tua PS4.
                 </p>
             </div>
-            <div class="row row-cols-1 row-cols-md-3 gy-5 gx-4 mt-5">
+            <div class="row row-cols-1 row-cols-md-3 gy-5 gx-4 mt-5 px-4 px-md-0">
                 <!-- PlayStation 4 -->
                 <div class="col">
                     <div class="card border-0">
@@ -821,7 +832,7 @@
                                 <div>
                                     <img height="50" src="./img/ps-now-logo-two-column.png" alt="">
                                 </div>
-                                <p class="my-4 text-white">Ottieni l'accesso immediato a una vastissima raccolta di oltre 800 giochi oer PS4, PS3 e PS2 su PS4 o PC Windows, con nuovi titoli aggiunti ogni mese</p>
+                                <p class="my-4 text-white">Ottieni l'accesso immediato a una vastissima raccolta di oltre 800 giochi per PS4, PS3 e PS2 su PS4 o PC Windows, con nuovi titoli aggiunti ogni mese</p>
                                 <a href="" class="btn bg_btn text-dark rounded-pill">Esplora PlayStation Now</a>
                             </div>
                         </div>
@@ -836,47 +847,88 @@
         </div>
 
         <!-- Social Media -->
-        <div class="container pb-5">
+        <div class="container social_media pb-5 px_lg">
             <div class="text-center my-5">
                <h2>Seguici sui social media</h2>
             </div>
             
-            <div class="row row-cols-2 row-cols-sm-4  gy-4">
+            <div class="row row-cols-2 row-cols-sm-4  gx-4 gy-4 px-lg-4">
                 <div class="col">
-                   <div class="debug"></div>
+                   <div>
+                       <img class="img-fluid" src="./img/twitter.jpg" alt="">
+                   </div>
                 </div>
                 <div class="col">
-                    <div class="debug"></div>
+                    <div>
+                        <img class="img-fluid" src="./img/facebook.jpg" alt="">
+                    </div>
                 </div>
                 <div class="col">
-                    <div class="debug"></div>
+                    <div>
+                        <img class="img-fluid" src="./img/instagram.jpg" alt="">
+                    </div>
                 </div>
                 <div class="col">
-                    <div class="debug"></div>
+                    <div>
+                        <img class="img-fluid" src="./img/youtube.png" alt="">
+                    </div>
                 </div>
             </div>
         </div>
 
         <!-- footer -->
-        <div class="bg-success py-5">
+        <div class="bg_light-blue py-5">
             <div class="container">
-                <div class="row row-cols-1 gy-4 ">
-                    <div class="col col-md-12 col-xxl-6">
-                        LOGO PS
+                <div class="row row-cols-1 gy-4 text-white">
+                    <div class="col col-md-12 col-xxl-6 mb-4">
+                        <img src="./img/white_play_logo.svg" alt="">
+                        <div class="mt-4">
+                            <i class="fa-solid fa-globe"></i> Country/ Region Italy
+                        </div>
                     </div>
+                    <!-- list -->
                     <div class="col col-md-4 col-xxl-2 ">
-                        Lorem ipsum dolor sit amet.
+                        <ul class="list-unstyled">
+                            <li><a class="link-light text-decoration-none" href="#">Link Footer</a></li>
+                            <li><a class="link-light text-decoration-none" href="#">Link Footer</a></li>
+                            <li><a class="link-light text-decoration-none" href="#">Link Footer</a></li>
+                            <li><a class="link-light text-decoration-none" href="#">Link Footer</a></li>
+                            <li><a class="link-light text-decoration-none" href="#">Link Footer</a></li>
+                        </ul>
                     </div>
+                    <!-- list -->
                     <div class="col col-md-4 col-xxl-2 ">
-                        Lorem ipsum dolor sit amet.
+                        <ul class="list-unstyled">
+                            <li><a class="link-light text-decoration-none" href="#">Link Footer</a></li>
+                            <li><a class="link-light text-decoration-none" href="#">Link Footer</a></li>
+                            <li><a class="link-light text-decoration-none" href="#">Link Footer</a></li>
+                            <li><a class="link-light text-decoration-none" href="#">Link Footer</a></li>
+                            <li><a class="link-light text-decoration-none" href="#">Link Footer</a></li>
+                            <li><a class="link-light text-decoration-none" href="#">Link Footer</a></li>
+                            <li><a class="link-light text-decoration-none" href="#">Link Footer</a></li>
+                        </ul>
                     </div>
+                    <!-- list -->
                     <div class="col col-md-4 col-xxl-2 ">
-                        Lorem ipsum dolor sit amet.
+                        <ul class="list-unstyled">
+                            <li><a class="link-light text-decoration-none" href="#">Link Footer</a></li>
+                            <li><a class="link-light text-decoration-none" href="#">Link Footer</a></li>
+                            <li><a class="link-light text-decoration-none" href="#">Link Footer</a></li>
+                         </ul>
                     </div>
                 </div>
-                <div class="row mt-5">
+                <!-- end footer -->
+                <div class="row mt-5 text-white">
                     <div class="col col-lg-6">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi repudiandae molestias debitis voluptas libero voluptate quas, maxime possimus pariatur deleniti, sint ab eius officia fugiat quod neque ducimus. Mollitia, sit.
+                        <div>
+                            <img height="70" src="./img/sie-logo.svg" alt="">
+                        </div>   
+                        <p class="mt-3">
+                            Website &#169;2021 Sony interactive Enteertainment Europe Limited. Tutti i contenuti, nomi dei giochi, nomi commerciali e/o di abbigliamento, marchi refistrati, grafica e immagini associati sono marchi registrati e/o materiale protetto da copyright dei rispettvi proprietari. Tutti i diritti riservati.
+                            <span class="text-decoration-underline">
+                                Maggiori info
+                            </span>
+                        </p>   
                     </div>
                 </div>
             </div>

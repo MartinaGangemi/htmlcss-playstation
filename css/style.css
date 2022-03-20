@@ -5,12 +5,12 @@
     --ligher: #BEBCBB;
     --bg_btn: #D9DADC;
     --dark-blue: #161C3B;
+    --light_blue: #00439C;
 }
 
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
-
 
 /*color*/
 .bg_dark_color{
@@ -28,6 +28,11 @@ body{
 .bg_blue{
     background-color: var(--blue_color);
 }
+
+.bg_light-blue{
+    background-color: var(--light_blue);
+}
+
 .bg_dark-blue{
     background-color: var(--dark-blue);
 }
@@ -69,12 +74,12 @@ body{
 }
 
 .hero_img{
-    
     background-repeat: no-repeat;
     background-position-y: center;
     background-size: cover;
     height: 600px;
 }
+
 .returnal{
     background-image: url(../img/returnal-listing-thumb-01-ps5.jpg);
     background-position-x: right;
@@ -123,4 +128,20 @@ body{
 
 .rounded_5{
     border-radius: 20px;
+}
+
+
+@media screen and (min-width: 556px) {
+    body{
+        margin-right: 0;
+    }
+    
+}
+
+@media screen and (min-width: 992px) {
+    .social_media{
+        padding-left: 15rem;
+        padding-right: 15rem;
+    }
+    
 }
