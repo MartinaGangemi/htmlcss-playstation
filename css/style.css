@@ -97,6 +97,7 @@ body{
     background-image: url(../img/chevron-down-solid.svg);
     width: 10px;
     height: 10px;
+    vertical-align: middle;
 }
 
 .drop-triangle:hover::after{
@@ -105,8 +106,8 @@ body{
     background-image: url(../img/chevron-down-solid-hover.svg);
     width: 10px;
     height: 10px;
+    vertical-align: middle;
 }
-
 
 .link_giochi::before {
     display: flex;
