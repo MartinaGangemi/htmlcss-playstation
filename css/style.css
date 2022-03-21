@@ -77,12 +77,12 @@ body{
     background-repeat: no-repeat;
     background-position-y: center;
     background-size: cover;
-    height: 600px;
+    height: 700px;
 }
 
 .returnal{
-    background-image: url(../img/returnal-listing-thumb-01-ps5.jpg);
-    background-position-x: right;
+    background-image: url(../img/jumbo-bg.png);
+    background-position: center;
 }
 
 .it_takes-2{
@@ -127,16 +127,40 @@ body{
     top: 70px;
 }
 
-.rounded_5{
-    border-radius: 20px;
+.rounded_4{
+    border-radius: 15px;
 }
 
+.shadow_ps:hover{
+    box-shadow: 0px 1px 5px 1px #9b9b9b;
+    min-height: 70px;
+    min-width: 100px;
+}
 
-@media screen and (min-width: 556px) {
-    body{
-        margin-right: 0;
-    }
-    
+.btn.btn-danger:hover{
+    box-shadow: inset 0px 0px 0px 2px black;
+}
+
+.btn.btn-dark:hover,
+.btn.btn-primary:hover{
+    box-shadow: inset 0px 0px 0px 2px white;
+}
+
+.btn.text-primary:hover{
+    box-shadow: inset 0px 0px 0px 2px #BEBCBB;
+}
+
+.btn.text-dark:hover{
+    box-shadow: inset 0px 0px 0px 2px #161C3B;
+}
+
+.animated_card{
+    top: 0;
+    transition: top ease 1s;
+}
+
+.animated_card:hover{
+    top: -10px;
 }
 
 @media screen and (min-width: 992px) {
